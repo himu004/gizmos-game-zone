@@ -1,0 +1,65 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section Styles */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 60px;
+    height: 60px;
+}
+
+.t-colour {
+    color: #FF42A5;
+}
+
+.shop-name {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu-container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-container ul li {
+    padding: 0 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.icons img {
+    padding: 0 10px;
+}
