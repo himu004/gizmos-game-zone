@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 /* Header Section Styles */
@@ -61,9 +63,13 @@ nav {
 }
 
 /* Hero Section Styles */
+.hero-section-container {
+    width: 100%;
+}
 
 .hero-section {
     display: flex;
+    flex-basis: 50%;
     justify-content: space-around;
     align-items: center;
 }
@@ -128,7 +134,55 @@ nav {
     text-transform: uppercase;
 }
 
-/* Reponsive Sectin */
+/* We are Gamer Section Styles */
+
+.gamer-section-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-gamer {
+    text-align: right;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-des {
+    margin-top: 10px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.our-purpose {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* Reponsive Section */
 
 /* Small devices */
 
