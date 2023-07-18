@@ -63,3 +63,54 @@ nav {
 .icons img {
     padding: 0 10px;
 }
+
+
+/* Reponsive Sectin */
+
+/* Small devices */
+
+@media screen and (max-width: 576px) {
+
+    /* Menu bar */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-container ul {
+        flex-direction: column;
+    }
+
+    .menu-container ul li {
+        margin: 10px;
+    }
+
+    .icons {
+        padding: 0 5px;
+        margin: 10px;
+    }
+}
+
+/* Medium -- Tablate Devices */
+
+@media screen and (min-width: 576px) and (max-width: 996px) {
+
+    /* Menu bar */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-container ul {
+        flex-direction: column;
+    }
+
+    .menu-container ul li {
+        margin: 10px;
+    }
+
+    .icons {
+        padding: 0 5px;
+        margin: 10px;
+    }
+}
