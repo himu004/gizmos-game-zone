@@ -18,7 +18,7 @@ nav {
     align-items: center;
     padding: 10px 0;
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(48, 48, 48, 0.15);
 }
 
 .logo-container {
@@ -55,15 +55,78 @@ nav {
 .icons {
     display: flex;
     align-items: center;
-    padding: 10px 5px;
+    padding: 10px 15px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
 
-.icons img {
-    padding: 0 10px;
+/* Hero Section Styles */
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.hero-heading {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.goat-t {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0;
+}
+
+.offers {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.offers p {
+    margin-left: 10px;
+    color: #534C64;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+/* Button styles -- Shareable */
+
+.btn-primary {
+    padding: 10px 40px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: 0;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    padding: 10px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 /* Reponsive Sectin */
 
@@ -89,6 +152,14 @@ nav {
         padding: 0 5px;
         margin: 10px;
     }
+
+    /* Hero Section */
+    .hero-section {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        justify-content: center;
+        margin-top: 70px;
+    }
 }
 
 /* Medium -- Tablate Devices */
@@ -112,5 +183,13 @@ nav {
     .icons {
         padding: 0 5px;
         margin: 10px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        justify-content: center;
+        margin-top: 70px;
     }
 }
