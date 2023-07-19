@@ -355,6 +355,59 @@ body {
 
 }
 
+/* Games Title Section Syles */
+
+.game-title-main-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 120px 100px;
+}
+
+.game-title-container-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.game-title-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.titles-wrapper button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #fff;
+    outline: 0;
+    border: 0;
+}
+
+.titles-wrapper h3 {
+    padding: 10px;
+    color: #0B0223;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.titles-wrapper button:hover {
+    cursor: pointer;
+    border: 2px solid #F948B2;
+
+}
+
+.titles-wrapper button:hover h3 {
+    color: #F948B2;
+}
+
+
+
 
 /* ----------------------------------------- */
 
@@ -459,6 +512,16 @@ body {
         width: 200px;
 
     }
+
+    /* Game Title Section */
+    .game-title-container-1 {
+        flex-direction: column;
+    }
+
+    .game-title-container-2 {
+        flex-direction: column;
+    }
+
 }
 
 /* Medium -- Tablate Devices */
@@ -540,6 +603,16 @@ body {
 
     .main-picture {
         width: 80%;
+    }
+
+    /* Game Title Section */
+    .game-title-container-1 {
+        flex-wrap: wrap;
+    }
+
+    .game-title-container-2 {
+        /* margin-top: 10px; */
+        flex-wrap: wrap;
     }
 
 }
