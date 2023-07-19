@@ -406,6 +406,69 @@ body {
     color: #F948B2;
 }
 
+/* Footer Are Styles */
+
+footer {
+    background: #0B0223;
+    padding: 100px 0;
+}
+
+.footer-heading {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer-menu span {
+    padding: 0 30px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social i {
+    color: #FFF;
+    padding: 30px 20px;
+    font-size: 2rem;
+}
+
+.policy {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.policy p {
+    padding: 0 30px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 
 
 
@@ -522,7 +585,29 @@ body {
         flex-direction: column;
     }
 
+    /* Footer */
+
+    .footer-menu {
+        padding: 0 50px;
+    }
+
+    .social-container {
+        padding: 5px 85px;
+    }
+
+    .policy {
+        padding: 0 50px;
+        margin: 0 30px;
+    }
+
+    footer p {
+        padding: 20px 30px;
+    }
+
+
 }
+
+/* --------------------------------- */
 
 /* Medium -- Tablate Devices */
 
