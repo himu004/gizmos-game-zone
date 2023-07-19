@@ -8,13 +8,12 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    width: 1440px;
-    margin: 0 auto;
 }
 
 /* Header Section Styles */
 
-nav {
+
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,7 +117,7 @@ nav {
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: normal;
+
     text-transform: uppercase;
 }
 
@@ -140,14 +139,29 @@ nav {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 0 100px;
+    padding: 30px 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    text-align: right;
+}
+
+.gamer-section-banner {
+    width: 50%;
+}
+
+.gamer-section-banner img {
+    width: 100%;
+}
+
+.gamer-section-content {
+    width: 50%;
+}
+
+.two {
+    text-align: right;
 }
 
 .we-gamer {
-    text-align: right;
     font-size: 3rem;
-    font-style: normal;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -158,20 +172,21 @@ nav {
 .gamer-des {
     margin-top: 10px;
     color: #534C64;
-    text-align: right;
     font-family: Work Sans;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .our-purpose {
+    /* text-align: right; */
     color: #534C64;
-    text-align: right;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
+    margin-top: 20px;
 }
 
 .unleash {
@@ -189,7 +204,7 @@ nav {
 @media screen and (max-width: 576px) {
 
     /* Menu bar */
-    nav {
+    .nav-container {
         flex-direction: column;
         align-items: center;
     }
@@ -213,6 +228,25 @@ nav {
         flex-flow: column-reverse;
         justify-content: center;
         margin-top: 70px;
+    }
+
+    /* We are gamer Section */
+    .gamer-section-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .gamer-section-banner {
+        width: 100%;
+    }
+
+    .gamer-section-banner img {
+        width: 100%;
+    }
+
+    .gamer-section-content {
+        width: 100%;
     }
 }
 
@@ -221,7 +255,7 @@ nav {
 @media screen and (min-width: 576px) and (max-width: 996px) {
 
     /* Menu bar */
-    nav {
+    .nav-container {
         flex-direction: column;
         align-items: center;
     }
@@ -245,5 +279,12 @@ nav {
         flex-flow: column-reverse;
         justify-content: center;
         margin-top: 70px;
+    }
+
+    /* We are gamer Section */
+    .gamer-section-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 30px;
     }
 }
