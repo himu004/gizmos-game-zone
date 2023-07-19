@@ -234,7 +234,8 @@ body {
 
 .game-section-card-container {
 
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px 100px;
     justify-content: center;
@@ -255,6 +256,11 @@ body {
 
 .img-container {
     position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -309,9 +315,6 @@ body {
     padding: 0 100px;
 }
 
-.play-content {
-    /* padding: 50px; */
-}
 
 .play-section-header {
     text-align: right;
@@ -526,9 +529,9 @@ footer p {
         width: 100%;
     }
 
-    /* Game Section Card Container */
+    /* Online Game Section Card Container */
     .game-section-card-container {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         padding: 10px 100px;
         text-align: center;
     }
@@ -649,7 +652,7 @@ footer p {
 
     /* We are gamer Section */
     .game-section-card-container {
-        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
         padding: 10px 100px;
         text-align: center;
     }
