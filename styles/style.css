@@ -197,6 +197,109 @@ body {
     line-height: 45px;
 }
 
+/* Online Games Section  Styles*/
+
+.online-game-section-cotainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.game-header {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.game-header .h-finny-t {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.gamer-section-des {
+    margin-top: 30px;
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.game-section-card-container {
+
+    display: flex;
+    gap: 20px;
+    padding: 20px 100px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.cards .cards-des {
+    text-align: left;
+    padding: 10px 10px;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.img-container {
+    position: relative;
+}
+
+
+.top-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 0.3s ease;
+    border: 3px solid #F948B2;
+    border-radius: 18px;
+}
+
+.img-container:hover .top-overlay {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #F948B2;
+}
+
+
+/* ----------------------------------------- */
+
 /* Reponsive Section */
 
 /* Small devices */
@@ -248,6 +351,21 @@ body {
     .gamer-section-content {
         width: 100%;
     }
+
+    /* Game Section Card Container */
+    .game-section-card-container {
+        flex-direction: column;
+        padding: 10px 100px;
+        text-align: center;
+    }
+
+    .cards .cards-des {
+        text-align: center;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
 }
 
 /* Medium -- Tablate Devices */
@@ -287,4 +405,20 @@ body {
         text-align: center;
         padding: 0 30px;
     }
+
+    /* We are gamer Section */
+    .game-section-card-container {
+        flex-direction: column;
+        padding: 10px 100px;
+        text-align: center;
+    }
+
+    .cards .cards-des {
+        text-align: center;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
 }
