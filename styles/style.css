@@ -14,15 +14,17 @@ body {
 
 
 .nav-container {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(48, 48, 48, 0.15);
 }
 
 .logo-container {
+    width: 50%;
     display: flex;
     align-items: center;
 }
@@ -408,12 +410,13 @@ body {
     padding: 5px 10px;
     background: #fff;
     outline: 0;
+    transition: 0.5;
 }
 
 .titles-wrapper h3 {
     padding: 10px;
     color: #0B0223;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -623,6 +626,27 @@ footer p {
 
     .game-title-container-2 {
         flex-direction: column;
+    }
+
+    .titles-wrapper button {
+        /* width: 200px; */
+        border: 2px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        border-radius: 50px;
+        margin-top: 10px;
+        padding: 5px 5px;
+        background: #fff;
+        outline: 0;
+        transition: 0.5;
+    }
+
+    .titles-wrapper h3 {
+        padding: 5px;
+        color: #0B0223;
+        font-size: 1rem;
     }
 
     /* Footer */
