@@ -351,13 +351,6 @@ body {
 
 
 
-.secondary-picture {
-    position: relative;
-    bottom: 250px;
-    margin-right: 500px;
-
-}
-
 /* Games Title Section Syles */
 
 .game-title-main-container {
@@ -379,17 +372,16 @@ body {
 
 
 .titles-wrapper button {
+    border: 2px solid transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
-    flex-shrink: 0;
     border-radius: 50px;
     margin-top: 10px;
     padding: 5px 10px;
     background: #fff;
     outline: 0;
-    border: 0;
 }
 
 .titles-wrapper h3 {
@@ -510,6 +502,10 @@ footer p {
         margin-top: 70px;
     }
 
+    .hero-section-banner img {
+        width: 100%;
+    }
+
     /* We are gamer Section */
     .gamer-section-container {
         flex-direction: column;
@@ -591,16 +587,29 @@ footer p {
     /* Footer */
 
     .footer-menu {
-        padding: 0 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-menu span {
+        margin: 10px;
+        font-size: 11px;
     }
 
     .social-container {
         padding: 5px 85px;
+        text-align: center;
     }
 
     .policy {
-        padding: 0 50px;
-        margin: 0 30px;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .policy p {
+        margin: 10px;
+        font-size: 11px;
     }
 
     footer p {
@@ -694,13 +703,46 @@ footer p {
     }
 
     /* Game Title Section */
+
+
     .game-title-container-1 {
         flex-wrap: wrap;
     }
 
     .game-title-container-2 {
-        /* margin-top: 10px; */
         flex-wrap: wrap;
+    }
+
+    /* Footer Section */
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-menu span {
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+
+    .social-container {
+        padding: 5px 85px;
+        text-align: center;
+    }
+
+    .policy {
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .policy p {
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        padding: 20px 30px;
+        font-size: 1.2rem;
     }
 
 }
