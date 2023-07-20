@@ -510,6 +510,11 @@ footer p {
         align-items: center;
     }
 
+    .logo-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
     .menu-container ul {
         flex-direction: column;
     }
@@ -702,6 +707,11 @@ footer p {
 
     .menu-container ul li {
         margin: 10px;
+    }
+
+    .logo-container {
+        width: 100%;
+        flex-direction: column;
     }
 
     .icons {
