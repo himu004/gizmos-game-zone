@@ -200,9 +200,9 @@ body {
 /* Online Games Section  Styles*/
 
 .online-game-section-cotainer {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .game-header {
@@ -237,7 +237,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 20px 100px;
+    padding: 0 100px;
     justify-content: center;
     margin-top: 30px;
 }
@@ -251,10 +251,10 @@ body {
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 25px;
 }
 
 .img-container {
+    border: 3px solid transparent;
     position: relative;
 }
 
@@ -346,7 +346,24 @@ body {
 }
 
 .play-instant-banner {
-    width: 70%;
+    width: 100%;
+}
+
+.main-picture {
+    width: 100%;
+}
+
+/* Play Instant - 2 */
+
+.play-instant-container-2 {
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    padding: 0 100px;
+    flex-direction: row-reverse;
 }
 
 
@@ -565,14 +582,25 @@ footer p {
     }
 
     .main-picture {
-        width: 80%;
+        width: 90%;
     }
 
-    .secondary-picture {
-        position: relative;
-        bottom: 200px;
-        width: 200px;
+    /* Play Instant - 2 */
 
+    .play-instant-container-2 {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .play-instant-container-2,
+    .play-section-header,
+    .play-secton-h2 {
+        font-size: 2rem;
+    }
+
+    .play-instant-container-2,
+    .play-section-des {
+        font-size: 1rem;
     }
 
     /* Game Title Section */
@@ -692,6 +720,22 @@ footer p {
 
     .play-section-des {
         text-align: center;
+    }
+
+    .play-instant-container-2 {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .play-instant-container-2,
+    .play-section-header,
+    .play-secton-h2 {
+        font-size: 3rem;
+    }
+
+    .play-instant-container-2,
+    .play-section-des {
+        font-size: 1.5rem;
     }
 
     .play-instant-banner {
