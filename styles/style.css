@@ -62,15 +62,24 @@ body {
 }
 
 /* Hero Section Styles */
-.hero-section-container {
-    width: 100%;
-}
+
 
 .hero-section {
     display: flex;
-    flex-basis: 50%;
     justify-content: space-around;
     align-items: center;
+}
+
+/* .hero-section-content {
+    width: 50%;
+} */
+
+.hero-section-banner {
+    width: 50%;
+}
+
+.hero-section-banner img {
+    width: 100%;
 }
 
 .hero-heading {
@@ -519,6 +528,10 @@ footer p {
         margin-top: 70px;
     }
 
+    .hero-section-banner {
+        width: 90%;
+    }
+
     .hero-section-banner img {
         width: 100%;
     }
@@ -678,6 +691,10 @@ footer p {
         flex-flow: column-reverse;
         justify-content: center;
         margin-top: 70px;
+    }
+
+    .hero-section-banner {
+        width: 90%;
     }
 
     /* We are gamer Section */
